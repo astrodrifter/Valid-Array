@@ -1,0 +1,6 @@
+C:\Users\Student\Documents\GitHub\Valid-Array\ValidArrayInputs\bin\Debug\ValidArrayInputs.exe.config
+C:\Users\Student\Documents\GitHub\Valid-Array\ValidArrayInputs\bin\Debug\ValidArrayInputs.exe
+C:\Users\Student\Documents\GitHub\Valid-Array\ValidArrayInputs\bin\Debug\ValidArrayInputs.pdb
+C:\Users\Student\Documents\GitHub\Valid-Array\ValidArrayInputs\obj\Debug\ValidArrayInputs.csprojResolveAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\Valid-Array\ValidArrayInputs\obj\Debug\ValidArrayInputs.exe
+C:\Users\Student\Documents\GitHub\Valid-Array\ValidArrayInputs\obj\Debug\ValidArrayInputs.pdb
