@@ -1,0 +1,109 @@
+/** c# PROGRAM TO READ INT VALUES AND PRINT THE OCCURRENCE OF EACH NUMBER***/
+
+using System;
+
+using System.Collections.Generic;
+
+using System.Linq;
+
+using System.Text;
+
+namespace readdata
+
+{
+
+    class COUNTNUMBERIMP
+
+    {
+
+        //MAIN METHOD
+
+        static void Main(string[] args)
+
+        {
+
+            int numCC;
+
+            //GET HOW MANY VALUES FROM THE USER
+
+            Console.WriteLine("HOW MANY NUMBERS ARE YOU GOING TO READ");
+
+            numCC = Convert.ToInt32(Console.ReadLine());
+
+            int[] inDATAValue = new int[numCC];
+
+           //ASKING USER TO ENTER INPUT DATA       
+
+          
+
+            Console.WriteLine("ENTER NUMBER. IF YOU WANT TO END PLEASE PRESS ENTER KEY");
+
+          
+
+            while(true)
+
+             {
+
+                    string in_VAL1 = Console.ReadLine();
+
+                    if(String.IsNullOrEmpty(in_VAL1))
+
+                       break;
+
+                    else
+
+                        inDATAValue[Convert.ToInt32(in_VAL1)]++;
+
+            }
+
+            int validEnt=0;
+
+            int invalidEnt=0;
+
+            //LOOP TO COUNT VALID AND INVALID ENTRIES
+
+            for (int k1 = 0; k1 < numCC; k1++)
+
+            {
+
+                if (inDATAValue[k1] < 0)
+
+                    invalidEnt++;
+
+                else
+
+                    validEnt++;
+
+            }
+
+            //DISPLAY THE NUMBER OF VALID AND INVLAID ENTRIES
+
+            Console.WriteLine("NUMBER OF VALID ENTRIES :{0} ", validEnt);
+
+            Console.WriteLine("NUMBER OF INVALID ENTRIES :{0} ", invalidEnt);
+
+            //DISPLAY THE NUMBER FREQUENCY
+
+            for (int k1 = 0; k1 < numCC; k1++)
+
+            {
+
+                if (inDATAValue[k1] > 0)
+
+                {
+
+                    Console.WriteLine(" NUMBER {0} HAS OCCURED: {1} TIMES(s)", k1, inDATAValue[k1]);
+
+                }
+
+            }               
+
+           
+
+            Console.ReadLine();
+
+        }//END MAIN
+
+    }//END CLASS
+
+}//END NAMESPACE
